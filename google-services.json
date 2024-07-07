@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1024255470535",
+    "project_id": "addicure-7951c",
+    "storage_bucket": "addicure-7951c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024255470535:android:2e5574f03d6c880610c7e2",
+        "android_client_info": {
+          "package_name": "host.exp.exponent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024255470535-ib7obhh4t6i7uiclcru9n0l9erpaf6ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD64jusGkzz3hMVEWD4RVAgGSkWzM7l7-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024255470535-ib7obhh4t6i7uiclcru9n0l9erpaf6ke.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1024255470535-uiaoqc7qsiisftbl30cach1mehj6jt7s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

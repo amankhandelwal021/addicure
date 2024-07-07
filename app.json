@@ -25,15 +25,10 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.amankhandelwal02.addicure"
+      "package": "host.exp.exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "a04a8da3-6a1d-4bb1-8108-446924a6c3e8"
-      }
     },
     "owner": "amankhandelwal02",
     "plugins": [
@@ -45,6 +40,11 @@
           "mode": "production"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ae80db4a-550a-443c-9225-ce21ec436901"
+      }
+    }
   }
 }

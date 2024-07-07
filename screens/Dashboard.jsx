@@ -34,7 +34,19 @@ import Header from "../components/Header";
 import { setMedical } from "../slices/medicalSlice";
 const Drawer = createDrawerNavigator();
 
+import * as Battery from 'expo-battery';
+
 const Dashboard = () => {
+
+  const checkBatteryLevel = async () => {
+    const batteryLevel = await Battery.getBatteryLevelAsync();
+    console.log("batteryLevel", (batteryLevel * 100).toFixed(2));
+    let userBatteryLevel = (batteryLevel * 100).toFixed(2);
+    if (userBatteryLevel >= 65) {
+      alert("Please charge your phone")
+    }
+  }
+  
   const [state, setState] = React.useState({ open: false });
   const onStateChange = ({ open }) => setState({ open });
   const { open } = state;
@@ -168,6 +180,7 @@ const Dashboard = () => {
     setTimeout(() => {
       setVisible(true);
     }, 10000);
+    checkBatteryLevel();
   }, []);
 
   useEffect(() => {
